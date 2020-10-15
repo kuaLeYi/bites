@@ -2,6 +2,8 @@ function nuG(i) {
   var obj={};
   $(".btnlvlcurr").removeClass("btnlvlcurr");
   $("#btn"+i).addClass("btnlvlcurr");
+  $("#imgct").addClass("hid");
+  $("#cvs").removeClass("hid");
   switch(i){
     case 1:
       obj.siz=6;
