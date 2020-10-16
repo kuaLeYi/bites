@@ -1,0 +1,52 @@
+button { font-family: verdana; }
+#nugmbtn {
+  background-color: #222;
+  border: .2em solid #c55;
+  color: #fff;
+  font-size: 1em;
+}
+#nugmbtn:hover {
+  background-color: #000;
+  border-color: #a22;
+}
+#grid, #grid td {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+}
+#grid td {
+  font-family: verdana;
+  height: 2em;
+  text-align: center;
+  width: 2em;
+}
+#wid {
+  -webkit-appearance: none;
+  border-radius: .4em;
+  height: .8em;
+  width: 5em;
+  background-color: #444;
+  outline: none;
+}
+#wid::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  height: .8em;
+  width: .8em;
+  background-color: #c55;
+}
+#wid::-moz-range-thumb {
+  border-radius: 50%;
+  height: .8em;
+  width: .8em;
+  background-color: #c55;
+}
+.a { padding-bottom: .3em; }
+.hid { display: none; }
+#sd {
+  float: left;
+  padding-right: 1em;
+  width: 12em;
+}
+#intro { max-width: 22em; }
+.rtxt { color: #f66; }

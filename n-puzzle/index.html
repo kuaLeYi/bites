@@ -1,0 +1,32 @@
+<!DOCTYPE html><html><head>
+<link rel="stylesheet" type="text/css" href="gnrlstyl/gnrlstyl0.css">
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="icon" href="https://avatars0.githubusercontent.com/u/23028142">
+<title>Puzzle</title>
+</head><body>
+<div id="intro"><h2><i>n</i>-puzzle</h2>
+<p><span class="rtxt">[desktop recommended]</span> Place tiles in
+ascending order on a square grid by making sliding moves that use the
+empty space. Use arrow keys or WASD to move the appropriate
+space-neighbouring tile in the corresponding direction.</p></div>
+<div id="sd"><div class="a">
+<button id="nugmbtn" onclick="nugm()">New Game</button>
+</div><div class="a">
+<label for="wid">Width:
+<input id="wid" name="wid" type="range" min="3" max="8" value="3">
+<span id="widv">3</span></label>
+</div>
+<div class="a">Status: <span id="status">n/a</span></div>
+<hr>
+<div id="fare" class="a hid">Moves: <span id="farem">0</span>;
+time: <span id="faret">0</span> s</div>
+<div id="farec" class="a hid">Game completed in <span id="faremc"></span>
+moves and <span id="faretc"></span> s</div>
+</div>
+<div><table id="grid"></table></div>
+<div id="sidbr"><ol>
+<li><a href="puzzle-lite/">Edge-matching puzzle</a></li>
+<li><a href="#"><i>n</i>-puzzle</a></li></ol>
+</div>
+<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+<script src="index.js"></script></body></html>

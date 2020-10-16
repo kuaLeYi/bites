@@ -1,0 +1,17 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: verdana;
+}
+#sidbr {
+  background-color: #444;
+  color: #fff;
+  float: right;
+  padding: 10px;
+}
+#sidbr:before {
+  content: "Bites";
+  font-weight: bold;
+}
+#sidbr > ol { margin: 0; }
+#sidbr a[href] { color: #fcc; }
